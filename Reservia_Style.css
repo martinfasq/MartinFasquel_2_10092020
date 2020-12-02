@@ -195,8 +195,7 @@ input{
 }
 
 .grid-hebergements img {
-	width: 274px;
-	height: 187px;
+	width: 190%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	padding-top: 5px;
