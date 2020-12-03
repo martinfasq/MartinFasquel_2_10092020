@@ -278,7 +278,6 @@ input{
 .afficher{
 	margin-top: 3em;
 	margin-bottom: 1em;
-	font-family: railway bold;
 }
 
 .grid-populaires{
@@ -421,9 +420,12 @@ footer ul{
 	margin-left: -40px;
 	list-style-type: none;
 	text-align: left;
-	font-family: relway SemiBold;
+	font-family: Raleway SemiBold;
 	font-size: 15px;
+}
 
+footer li{
+	font-family: Raleway Regular;
 }
 
 
@@ -518,12 +520,12 @@ footer ul{
 		display: flex;
 		flex-flow: wrap;
 		justify-content: center;
-		gap: 9px;
+		grid-gap: 9px;
 		padding: 2px;
 	}
 
 	.grid-hebergements img{
-		width: 98%;
+		width: 96%;
 		height: 122px;
 		object-fit: cover;
 	}
@@ -535,6 +537,7 @@ footer ul{
 		order: -1;
 		border-radius: 0px 0px 0px 0px;
 		margin-top: 15px;
+		margin-left: 8px;
 	}
 
 	.grid-populaires img{
@@ -565,7 +568,7 @@ footer ul{
 	.filtres ul{
 		flex-flow: wrap; 
 		margin: 0;
-		gap: 10px;
+		grid-gap: 10px;
 		padding: 0;
 		justify-content: flex-start;
 		margin-bottom: 15px;
@@ -640,7 +643,8 @@ footer ul{
 
 	.container1{
 		display: grid;
-		grid-template-columns: 1fr 2fr; 
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 9px; 
 	}
 
 	.grid-populaires{
