@@ -30,14 +30,14 @@
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-Bold.ttf') format('ttf');
+	src: local('Raleway Bold'), url('polices/Raleway-Bold.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-Regular.otf') format('otf');
+	src: local('Raleway Regular'), url('polices/Raleway-Regular.ttf') format('ttf');
 }
 
 @font-face{
@@ -51,14 +51,14 @@
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-Bold.otf') format('otf');
+	src: local('Raleway Bold'), url('polices/Raleway-Bold.otf') format('otf');
 }
 
 @font-face{
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-Regular.otf') format('otf');
+	src: local('Raleway Regular'), url('polices/Raleway-Regular.otf') format('otf');
 }
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog,.fa-star,.fa-info-circle{
