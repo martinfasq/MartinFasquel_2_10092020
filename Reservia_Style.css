@@ -195,7 +195,7 @@ input{
 }
 
 .grid-hebergements img {
-	width: 190%;
+	width: 192%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	padding-top: 5px;
@@ -537,7 +537,6 @@ footer li{
 		order: -1;
 		border-radius: 0px 0px 0px 0px;
 		margin-top: 15px;
-		margin-left: 8px;
 	}
 
 	.grid-populaires img{
@@ -649,6 +648,7 @@ footer li{
 
 	.grid-populaires{
 		border-radius: 15px 15px 15px 15px;
+		margin-left: 8px;
 	}
 
 	.grid-populaires img{
