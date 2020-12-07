@@ -2,62 +2,62 @@
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Regular'), url('polices/raleway-regular.woff') format('woff');
+	src: url('polices/raleway-regular.woff') format('woff');
 }
 @font-face {
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Bold'), url('polices/raleway-bold.woff') format('woff');
+	src: url('polices/raleway-bold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/raleway-semibold.woff') format('woff');
+	src: url('polices/raleway-semibold.woff') format('woff');
 }
 
 @font-face{
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/raleway-semibold.ttf') format('ttf');
+	src: url('polices/raleway-semibold.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Bold'), url('polices/raleway-bold.ttf') format('ttf');
+	src:url('polices/raleway-bold.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Regular'), url('polices/raleway-regular.ttf') format('ttf');
+	src: url('polices/raleway-regular.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/raleway-semibold.otf') format('otf');
+	src: url('polices/raleway-semibold.otf') format('otf');
 }
 
 @font-face{
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Bold'), url('polices/raleway-bold.otf') format('otf');
+	src: url('polices/raleway-bold.otf') format('otf');
 }
 
 @font-face{
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Regular'), url('polices/raleway-regular.otf') format('otf');
+	src: url('polices/raleway-regular.otf') format('otf');
 }
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog,.fa-star,.fa-info-circle{
@@ -78,8 +78,8 @@
 /* Header */
 
 body{
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-bottom: 30px;
 	margin-top: 5px;
 	font-family: Raleway Bold;
@@ -107,6 +107,8 @@ nav a:hover{
 
 header{
 	width: auto;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 .head{
@@ -220,6 +222,7 @@ input{
 .hebergements{
 	background-color: #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
+	margin-left: 30px;
 }
 
 .grid-hebergements{
@@ -284,6 +287,7 @@ input{
 	grid-gap: 30px 20px;
 	padding: 30px;
 	padding-top: 20px;
+	margin-right: 30px;
 }
 
 .grid-populaires img{
@@ -318,6 +322,8 @@ input{
 
 .activites{
 	padding-top: 50px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 .container2 img{
