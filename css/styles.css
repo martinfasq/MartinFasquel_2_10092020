@@ -432,6 +432,11 @@ footer li{
 		margin: 2px;
 	}
 
+	header{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
 	nav ul{
 		margin: 0;
 		padding: 0;
@@ -470,7 +475,6 @@ footer li{
 		border-bottom: 3px solid #F2F2F2 ;
 		margin-top: 16px;
 	}
-
 
 	.head img{
 		width: 143px;
@@ -529,6 +533,7 @@ footer li{
 		order: -1;
 		border-radius: 0px 0px 0px 0px;
 		margin-top: 15px;
+		margin: 0;
 	}
 
 	.grid-populaires img{
@@ -642,7 +647,7 @@ footer li{
 
 	.grid-populaires img{
 		height: 11rem;
-		width: 7rem;
+		width: 6rem;
 	}
 
 	.grid-activites{
