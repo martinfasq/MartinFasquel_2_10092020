@@ -2,63 +2,62 @@
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Regular'), url('polices/Raleway-Regular.woff') format('woff');
-
+	src: local('Raleway Regular'), url('polices/raleway-regular.woff') format('woff');
 }
 @font-face {
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Bold'), url('polices/Raleway-Bold.woff') format('woff');
+	src: local('Raleway Bold'), url('polices/raleway-bold.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-SemiBold.woff') format('woff');
+	src: local('Raleway SemiBold'), url('polices/raleway-semibold.woff') format('woff');
 }
 
 @font-face{
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-SemiBold.ttf') format('ttf');
+	src: local('Raleway SemiBold'), url('polices/raleway-semibold.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Bold'), url('polices/Raleway-Bold.ttf') format('ttf');
+	src: local('Raleway Bold'), url('polices/raleway-bold.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Regular'), url('polices/Raleway-Regular.ttf') format('ttf');
+	src: local('Raleway Regular'), url('polices/raleway-regular.ttf') format('ttf');
 }
 
 @font-face{
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway SemiBold'), url('polices/Raleway-SemiBold.otf') format('otf');
+	src: local('Raleway SemiBold'), url('polices/raleway-semibold.otf') format('otf');
 }
 
 @font-face{
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Bold'), url('polices/Raleway-Bold.otf') format('otf');
+	src: local('Raleway Bold'), url('polices/raleway-bold.otf') format('otf');
 }
 
 @font-face{
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Raleway Regular'), url('polices/Raleway-Regular.otf') format('otf');
+	src: local('Raleway Regular'), url('polices/raleway-regular.otf') format('otf');
 }
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog,.fa-star,.fa-info-circle{
