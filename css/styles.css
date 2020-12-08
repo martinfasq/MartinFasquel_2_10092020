@@ -126,6 +126,10 @@ header ul{
 	justify-content:space-around;
 }
 
+.filtres li:hover{
+	border: 2px solid #0065fc;
+}
+
 .icones li{
 	border-radius: 24px 28px 28px 24px;
 	border: 2px solid #D9D9D9;
@@ -146,7 +150,7 @@ header ul{
 	border-radius: 0px 12px 12px 0px;
 	margin-left: -5px;
 	padding: 0.7em;
-	border: solid #0065FC;
+	border: solid 3.4px #0065FC;
 }
 
 input{
@@ -157,10 +161,10 @@ input{
 
 .recherche i{
 	background-color: #F2F2F2;
-	padding: 0.7em;
+	padding: 0.9em;
 	border-radius: 12px 0px 0px 12px;
 	padding-top: 11px;
-	padding-bottom: 12px;
+	padding-bottom: 12.5px;
 	margin-top: 1em;
 }
 
@@ -186,6 +190,11 @@ input{
 }
 
 /* Grid Populaires et Hébergements */
+
+.container1 a{
+	text-decoration: none;
+	color: inherit;
+}
 
 .container1{
 	display: grid; 
@@ -324,6 +333,11 @@ input{
 	padding-top: 50px;
 	margin-right: 30px;
 	margin-left: 30px;
+}
+
+.activites a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .container2 img{
