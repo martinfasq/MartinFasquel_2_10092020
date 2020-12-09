@@ -695,13 +695,15 @@ footer li{
 
 	.grid-populaires h2{
 		font-size: 22px;
-		position: absolute;
-		top: 472px;
+		grid-column-start: 1;
+		grid-column-end: 4; 
+		
 	}
 
 	.grid-populaires h2 i{
 		margin: 0;
-		justify-content: flex-start; 
+		justify-content: flex-end; 
+		margin-top: -1em;
 	}
 
 	.grid-populaires img{
