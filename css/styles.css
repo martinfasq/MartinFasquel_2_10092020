@@ -2,63 +2,29 @@
 	font-family: 'Raleway Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: url('polices/raleway-regular.woff') format('woff');
+	src: url('../polices/raleway-regular.woff') format('woff'),
+	url('../polices/raleway-regular.ttf') format('ttf'),
+	url('../polices/raleway-regular.otf') format('otf');
 }
 @font-face {
 	font-family: 'Raleway Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: url('polices/raleway-bold.woff') format('woff');
+	src: url('../polices/raleway-bold.woff') format('woff'),
+	url('../polices/raleway-bold.ttf') format('ttf'),
+	url('../polices/raleway-bold.otf') format('otf');
 }
 
 @font-face {
 	font-family: 'Raleway SemiBold';
 	font-style: normal;
 	font-weight: normal;
-	src: url('polices/raleway-semibold.woff') format('woff');
+	src: url('../polices/raleway-semibold.woff') format('woff'),
+	url('../polices/raleway-semibold.ttf') format('ttf'),
+	url('../polices/raleway-semibold.otf') format('otf');
 }
 
-@font-face{
-	font-family: 'Raleway SemiBold';
-	font-style: normal;
-	font-weight: normal;
-	src: url('polices/raleway-semibold.ttf') format('ttf');
-}
 
-@font-face{
-	font-family: 'Raleway Bold';
-	font-style: normal;
-	font-weight: normal;
-	src:url('polices/raleway-bold.ttf') format('ttf');
-}
-
-@font-face{
-	font-family: 'Raleway Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: url('polices/raleway-regular.ttf') format('ttf');
-}
-
-@font-face{
-	font-family: 'Raleway SemiBold';
-	font-style: normal;
-	font-weight: normal;
-	src: url('polices/raleway-semibold.otf') format('otf');
-}
-
-@font-face{
-	font-family: 'Raleway Bold';
-	font-style: normal;
-	font-weight: normal;
-	src: url('polices/raleway-bold.otf') format('otf');
-}
-
-@font-face{
-	font-family: 'Raleway Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: url('polices/raleway-regular.otf') format('otf');
-}
 
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog,.fa-star,.fa-info-circle{
 	color: #0065FC;  
@@ -75,12 +41,19 @@
 	margin: auto;
 }
 
-/* Header */
+/*
+##     ## ########    ###    ########  ######## ########
+##     ## ##         ## ##   ##     ## ##       ##     ##
+##     ## ##        ##   ##  ##     ## ##       ##     ##
+######### ######   ##     ## ##     ## ######   ########
+##     ## ##       ######### ##     ## ##       ##   ##
+##     ## ##       ##     ## ##     ## ##       ##    ##
+##     ## ######## ##     ## ########  ######## ##     ## */
 
 body{
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	margin-top: 5px;
 	font-family: Raleway Bold;
 }  
@@ -189,7 +162,14 @@ input{
 	text-align: left;
 }
 
-/* Grid Populaires et Hébergements */
+/*
+ ######   ########  #### ########     ########   #######  ########     ##     ## ######## ########
+##    ##  ##     ##  ##  ##     ##    ##     ## ##     ## ##     ##    ##     ## ##       ##     ##
+##        ##     ##  ##  ##     ##    ##     ## ##     ## ##     ##    ##     ## ##       ##     ##
+##   #### ########   ##  ##     ##    ########  ##     ## ########     ######### ######   ########
+##    ##  ##   ##    ##  ##     ##    ##        ##     ## ##           ##     ## ##       ##     ##
+##    ##  ##    ##   ##  ##     ##    ##        ##     ## ##           ##     ## ##       ##     ##
+######   ##     ## #### ########     ##         #######  ##           ##     ## ######## ########*/
 
 .container1 a{
 	text-decoration: none;
@@ -327,15 +307,33 @@ input{
 	margin-top: -1em;
 }
 
-/* Grid activités */
+/*
+ ######   ########  #### ########        ###     ######  ######## #### ##     ## #### ######## ########  ######
+##    ##  ##     ##  ##  ##     ##      ## ##   ##    ##    ##     ##  ##     ##  ##     ##    ##       ##    ##
+##        ##     ##  ##  ##     ##     ##   ##  ##          ##     ##  ##     ##  ##     ##    ##       ##
+##   #### ########   ##  ##     ##    ##     ## ##          ##     ##  ##     ##  ##     ##    ######    ######
+##    ##  ##   ##    ##  ##     ##    ######### ##          ##     ##   ##   ##   ##     ##    ##             ##
+##    ##  ##    ##   ##  ##     ##    ##     ## ##    ##    ##     ##    ## ##    ##     ##    ##       ##    ##
+######   ##     ## #### ########     ##     ##  ######     ##    ####    ###    ####    ##    ########  ######*/
 
-.activites{
-	padding-top: 50px;
+.grid-activites{
 	margin-right: 30px;
 	margin-left: 30px;
 }
 
-.activites a{
+.container2 h2{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 20px;
+	padding-top: 50px;
+	padding-left: 23px;
+}
+
+.grid-activites h3{
+	font-size: 15px;
+}
+
+.grid-activites a{
 	text-decoration: none;
 	color: inherit;
 }
@@ -375,6 +373,7 @@ input{
 .grid-activites b{
 	padding-left: 1em;
 	border: 0;
+	font-size: 1em;
 }
 
 .box1{
@@ -411,7 +410,14 @@ input{
 	justify-content: space-between;
 }
 
-/* Footer */
+/*
+########  #######   #######  ######## ######## ########
+##       ##     ## ##     ##    ##    ##       ##     ##
+##       ##     ## ##     ##    ##    ##       ##     ##
+######   ##     ## ##     ##    ##    ######   ########
+##       ##     ## ##     ##    ##    ##       ##   ##
+##       ##     ## ##     ##    ##    ##       ##    ##
+##        #######   #######     ##    ######## ##     ## */
 
 footer{
 	display: flex;
@@ -437,9 +443,16 @@ footer li{
 	font-family: Raleway Regular;
 }
 
-/* Media Queries */
+/* 
+##     ##     #######        ###    ##       ##
+###   ###    ##     ##      ## ##   ##       ##
+#### ####    ##     ##     ##   ##  ##       ##
+## ### ##    ##     ##    ##     ## ##       ##
+##     ##    ##  ## ##    ######### ##       ##
+##     ##    ##    ##     ##     ## ##       ##
+##     ##     ##### ##    ##     ## ######## ######## */
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1094px)
 {
 
 	body{
@@ -593,14 +606,14 @@ footer li{
 		padding-top: 20px;
 	}
 
-	.activites{
+	.grid-activites{
 		margin-top: 0px;
 		margin-right: 7px;
 		margin-left: 7px;
 		margin-bottom: 0px;
 	}
 
-	.activites h2{
+	.grid-activites h2{
 		display: flex;
 		justify-content: flex-start;
 		margin-left: 20px;
@@ -629,8 +642,16 @@ footer li{
 	}	
 }
 
+/* 
+##     ##     #######     ########    ###    ########  ##       ######## ######## ######## ########
+###   ###    ##     ##       ##      ## ##   ##     ## ##       ##          ##       ##    ##
+#### ####    ##     ##       ##     ##   ##  ##     ## ##       ##          ##       ##    ##
+## ### ##    ##     ##       ##    ##     ## ########  ##       ######      ##       ##    ######
+##     ##    ##  ## ##       ##    ######### ##     ## ##       ##          ##       ##    ##
+##     ##    ##    ##        ##    ##     ## ##     ## ##       ##          ##       ##    ##
+##     ##     ##### ##       ##    ##     ## ########  ######## ########    ##       ##    ########*/
 
-@media screen and (min-width: 750px) and (max-width: 1024px){
+@media screen and (min-width: 750px) and (max-width: 1094px){
 
 	.grid-hebergements{
 		display: grid;
@@ -648,15 +669,39 @@ footer li{
 		margin-top: 0;
 	}
 
+	.grid-hebergements img{
+		width: 98%;
+		height: 160px;
+		object-fit: cover;
+	}
+
 	.container1{
 		display: grid;
-		grid-template-columns: 1fr 2fr;
+		grid-template-columns: 1fr ;
 		grid-gap: 9px; 
 	}
 
 	.grid-populaires{
 		border-radius: 15px 15px 15px 15px;
 		margin-left: 8px;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-right: 8px;
+		margin-top: 50px;
+	}
+
+	.grid-populaires h3{
+		font-size: 17px;
+	}
+
+	.grid-populaires h2{
+		font-size: 22px;
+		position: absolute;
+		top: 472px;
+	}
+
+	.grid-populaires h2 i{
+		margin: 0;
+		justify-content: flex-start; 
 	}
 
 	.grid-populaires img{
